@@ -19,7 +19,7 @@
     <%= render 'layouts/alerts' %>
     
     <div class="container">
-      <%= yield %>
+      <%= yield.force_encoding('utf-8') %>
     </div>
   </body>
 </html>
